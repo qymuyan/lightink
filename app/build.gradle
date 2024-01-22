@@ -11,6 +11,7 @@ properties.load(project.rootProject.file('local.properties').newDataInputStream(
 
 android {
     compileSdkVersion 32
+    buildToolsVersion "32.0.3"
     defaultConfig {
         applicationId 'cn.lightink.reader'
         minSdkVersion 24
